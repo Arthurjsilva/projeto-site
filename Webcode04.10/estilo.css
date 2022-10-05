@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #101820;
+    padding: 15px 45px;
+    align-items: center;
+    
+}
+
+.container-logo{
+    display: flex;
+    align-items: center;
+    color: azure;
+}
+
+#logo-loja{
+    height: 65px;
+    margin-right: 25px;
+}
+.botao-login{
+    height: 50%;
+
+}
+.logo-nav
+{
+    height: 65px;
+}
+
+.container-nav
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+    align-items: center;
+}
+.conteudo-nav
+{
+    color: azure;
+    display: flex;
+    align-items: center;
+}
+.imagem-tema-nav
+{
+
+    height: 30px;
+    width: 30px;
+    margin-right: 20px;
+}
+nav{
+    background-color: #090d11;
+    min-height: 100vh;
+}
+main{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 20% 1fr;
+}
+.card-produto
+{
+    text-align: center;
+    box-shadow: 9px 7px 5px 3px rgba(50, 50, 50, 0.44 );
+    width: 100%;
+}
+.imagem-produto
+{
+    margin-bottom: 20px;
+    width: 100%;
+
+}
+section{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 35px;
+    column-gap: 35px;
+    padding: 30px;
+    background-color: #38587a;
+}
+.descrição-prod
+{
+    margin:  20px 35px 30px 35px;
+    color: azure;
+   
+}
+.imagem-chevron{
+    height: 15px;
+    width: 15px;
+    margin-right: 20px;
+}
+h3{
+    color: #101820;
+}
+.botao-comprar{
+    background-color: white;
+    border:none;
+    padding: 5px 5px;
+    border-radius: 5px;
+    margin: 15px 15px;
+
+}
+
